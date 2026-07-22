@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
+<script src="image-slot.js"></script>
 
 </head>
 <body>
@@ -16,6 +17,7 @@
 <header>
   <a class="wordmark" href="#">Harts <span>Hunches</span></a>
   <nav aria-label="Main">
+    <a href="#pickawinner">Pick a Winner</a>
     <a href="#hunches">Today's Hunches</a>
     <a href="#guarantee">The Guarantee</a>
     <a href="#footer">Small Print</a>
@@ -30,6 +32,19 @@
     <p class="hero-quote">"Placing a bet, my friend, is very much like making love to a beautiful woman. You study the form, you hold your nerve, you commit fully… and you know precisely when to walk away with your dignity intact."</p>
     <p class="hero-attrib">— Hart, Purveyor of Hunches</p>
     <a class="cta" href="#hunches">Peruse the hunches</a>
+  </div>
+</section>
+
+<section class="section" id="pickawinner">
+  <div class="rule"><h2>Newmarket Races &mdash; Pick a Winner</h2></div>
+  <div class="dartboard-wrap">
+    <div class="dartboard-frame">
+      <image-slot id="dartboard-picks" shape="rounded" radius="12" src="images/dartboard-picks.png" placeholder="Drop dartboard photo: three post-its pinned on with a dart in each, one horse name per note"></image-slot>
+    </div>
+    <div class="dartboard-copy">
+      <p>Three darts. Three post-its. Three horses. On the morning of the off, whoever's note takes the dart nearest the bull has picked the winner — no form, no paddock, no nonsense.</p>
+      <p class="hero-attrib">The board does not lie. The board has never even seen a horse.</p>
+    </div>
   </div>
 </section>
 
